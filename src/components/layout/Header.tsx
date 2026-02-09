@@ -20,10 +20,17 @@ export default function PanelNav({ activeTab, onTabChange }: PanelNavProps) {
       {/* Left mark */}
       <a
         href="#"
-        className="brand-mark text-base sm:text-lg"
+        className="inline-flex items-center gap-2.5"
       >
-        <span className="brand-mark-text">
-          Rhys Farrant
+        <img
+          src="/Me.png"
+          alt="Rhys Farrant logo"
+          className="h-7 w-7 rounded-full object-cover sm:h-8 sm:w-8"
+        />
+        <span className="brand-mark text-base sm:text-lg">
+          <span className="brand-mark-text">
+            Rhys Farrant
+          </span>
         </span>
       </a>
 
