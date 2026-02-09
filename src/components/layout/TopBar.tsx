@@ -17,6 +17,20 @@ export default function TopBar() {
           </span>
           </span>
         </a>
+
+        <div className="inline-flex items-center gap-2">
+          <a
+            href="https://labs.rhysfarrant.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="rounded-full border border-border/70 bg-surface/70 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.12em] text-text-muted transition-colors hover:border-text-muted hover:text-text-primary"
+          >
+            Labs
+          </a>
+          <span className="rounded-full border border-accent/50 bg-accent/20 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.14em] text-text-primary">
+            Portfolio
+          </span>
+        </div>
       </div>
     </header>
   )
