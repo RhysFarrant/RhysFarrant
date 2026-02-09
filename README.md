@@ -2,6 +2,11 @@
 
 Software Developer focused on reliable backend systems, API integrations, and modern web apps.
 
+## Sites
+
+- Personal site: https://www.rhysfarrant.com/
+- Labs (mini test projects): https://labs.rhysfarrant.com/
+
 ## What I Do
 
 - Build Java backend services and integration workflows
