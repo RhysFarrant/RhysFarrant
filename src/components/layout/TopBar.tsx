@@ -21,8 +21,6 @@ export default function TopBar() {
         <div className="inline-flex items-center gap-2">
           <a
             href="https://labs.rhysfarrant.com/"
-            target="_blank"
-            rel="noreferrer noopener"
             className="rounded-full border border-border/70 bg-surface/70 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.12em] text-text-muted transition-colors hover:border-text-muted hover:text-text-primary"
           >
             Labs
