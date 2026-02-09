@@ -1,16 +1,39 @@
-# React + Vite
+# Hi, I'm Rhys Farrant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Software Developer focused on reliable backend systems, API integrations, and modern web apps.
 
-Currently, two official plugins are available:
+## What I Do
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Build Java backend services and integration workflows
+- Build frontend products with React, TypeScript, and Tailwind CSS
 
-## React Compiler
+## Core Skills
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Java, REST APIs, Apache Camel
+- Kubernetes / OpenShift
+- CI/CD (Bamboo), Git, release coordination
+- API testing (JUnit, Postman)
+- React 18, Vite, TypeScript, Tailwind CSS
 
-## Expanding the ESLint configuration
+## Featured Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Solstice *(WIP)*
+Personal productivity platform for goals, habits, and daily planning.
+
+**Stack:** React, Vite, TypeScript, Tailwind CSS  
+**Live:** https://solstice-app.com
+
+### Aether *(WIP)*
+D&D 5e character builder and manager with validation, PDF export, and campaign tools.
+
+**Stack:** React, Firebase, TypeScript  
+**Live:** https://aether-builder.com
+
+## Additional Tools
+
+Python, C++, C#, Dart/Flutter, HTML/CSS
+
+## Contact
+
+- GitHub: https://github.com/rhysfarrant
+- LinkedIn: https://linkedin.com/in/rhysfarrant
