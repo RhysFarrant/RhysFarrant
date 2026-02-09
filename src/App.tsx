@@ -59,14 +59,14 @@ export default function App() {
       <TopBar />
 
       {/* Hero Stage */}
-      <section className="hero-gradient relative flex min-h-[50vh] flex-col items-center justify-center px-6 text-center">
+      <section className="hero-gradient relative flex min-h-[50vh] flex-col items-center justify-center px-6 py-4 text-center">
         {/* Eyebrow */}
-        <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-text-muted">
+        <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.22em] text-text-muted sm:text-xs">
           Rhys Farrant &middot; Software Developer
         </p>
 
         {/* Headline */}
-        <h1 className="mx-auto mb-6 max-w-2xl text-4xl font-bold leading-[1.15] sm:text-3xl lg:text-4xl">
+        <h1 className="mx-auto mb-6 max-w-2xl text-2xl font-bold leading-[1.2] sm:text-3xl sm:leading-[1.15] lg:text-4xl">
           <span className="text-text-secondary">Career focus on </span>
           Java-based backend systems and integrations.
           <span className="text-text-secondary"> Personal focus on building modern, deployable web applications with </span>
@@ -78,7 +78,7 @@ export default function App() {
           {pills.map((pill) => (
             <span
               key={pill}
-              className="rounded-full border border-border/60 px-3.5 py-1 text-xs text-text-muted"
+              className="rounded-full border border-border/60 px-3.5 py-1 text-[10px] text-text-muted sm:text-xs"
             >
               {pill}
             </span>
@@ -86,7 +86,7 @@ export default function App() {
         </div>
 
         {/* Availability line */}
-        <p className="text-xs text-text-muted/70">
+        <p className="text-[10px] text-text-muted/70 sm:text-xs">
           London &middot; Backend, Frontend &amp; Integrations
         </p>
       </section>
@@ -171,7 +171,7 @@ export default function App() {
                 &middot;
               </span>
               <a
-                href="https://linkedin.com/in/rhysfarrant"
+                href="https://www.linkedin.com/in/rhys-farrant-0585ab173/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sm transition-colors hover:text-text-primary"

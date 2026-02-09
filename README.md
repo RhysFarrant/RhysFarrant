@@ -41,4 +41,4 @@ Python, C++, C#, Dart/Flutter, HTML/CSS
 ## Contact
 
 - GitHub: https://github.com/rhysfarrant
-- LinkedIn: https://linkedin.com/in/rhysfarrant
+- LinkedIn: https://www.linkedin.com/in/rhys-farrant-0585ab173/
