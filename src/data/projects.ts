@@ -47,4 +47,20 @@ export const projects: Project[] = [
     featured: true,
     wip: true,
   },
+  {
+    id: 'labs',
+    name: 'Labs',
+    tagline: 'Sandbox for rapid prototypes and experiments',
+    description:
+      'A rolling collection of focused experiments used to explore new ideas, tooling patterns, and implementation approaches before they graduate into full projects.',
+    stack: ['TypeScript', 'React', 'Vite', 'Prototyping'],
+    highlights: [
+      'Short-cycle experiments to validate product and UX ideas quickly',
+      'Technical spikes for architecture and integration decisions',
+      'Reusable components and patterns extracted for future builds',
+    ],
+    liveUrl: 'https://labs.rhysfarrant.com',
+    featured: true,
+    wip: true,
+  },
 ]

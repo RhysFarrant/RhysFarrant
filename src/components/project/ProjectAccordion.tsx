@@ -40,12 +40,32 @@ export default function ProjectAccordion({ projects }: ProjectAccordionProps) {
               className="group flex w-full cursor-pointer items-center justify-between py-6 text-left transition-colors hover:text-accent"
             >
               <div className="flex items-center gap-4">
-                {project.logo && (
+                {project.logo ? (
                   <img
                     src={project.logo}
                     alt={`${project.name} logo`}
                     className="h-8 w-8 rounded-lg"
                   />
+                ) : (
+                  <span
+                    aria-hidden="true"
+                    className="flex h-8 w-8 items-center justify-center rounded-lg border border-border bg-surface-elevated text-text-muted"
+                  >
+                    <svg
+                      className="h-4 w-4"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect x="3" y="3" width="7" height="7" rx="1" />
+                      <rect x="14" y="3" width="7" height="7" rx="1" />
+                      <rect x="3" y="14" width="7" height="7" rx="1" />
+                      <rect x="14" y="14" width="7" height="7" rx="1" />
+                    </svg>
+                  </span>
                 )}
                 <div>
                   <div className="flex items-center gap-3">
