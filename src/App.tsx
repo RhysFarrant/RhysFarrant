@@ -59,7 +59,7 @@ export default function App() {
       <TopBar />
 
       {/* Hero Stage */}
-      <section className="hero-gradient relative flex min-h-[50vh] flex-col items-center justify-center px-6 py-4 text-center">
+      <section className="hero-gradient relative flex min-h-[50vh] flex-col items-center justify-center px-6 pb-10 pt-8 text-center sm:pb-16 sm:pt-10 lg:pb-24 lg:pt-8">
         {/* Eyebrow */}
         <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.22em] text-text-muted sm:text-xs">
           Rhys Farrant &middot; Software Developer
@@ -92,14 +92,14 @@ export default function App() {
       </section>
 
       {/* Floating Content Panel */}
-      <div className="relative z-10 mx-auto w-full max-w-[1140px] px-4 pb-5 sm:-mt-24 sm:px-6 lg:-mt-32">
+      <div className="relative z-10 mx-auto w-full max-w-[1140px] px-4 pb-5 sm:-mt-16 sm:px-6 lg:-mt-20">
         <div className="floating-panel overflow-hidden rounded-2xl shadow-2xl shadow-black/30">
           {/* Panel header / nav */}
           <div className="relative">
             <PanelNav activeTab={activeTab} onTabChange={setActiveTab} />
           </div>
 
-          <div className="panel-scroll h-[560px] overflow-y-auto">
+          <div className="panel-scroll h-[500px] overflow-y-auto">
           {activeTab === 'work' && (
             <section id="work" className="px-6 py-6 sm:px-10 sm:py-10">
               <h2 className="mb-2 text-2xl font-bold sm:text-3xl">
@@ -185,7 +185,7 @@ export default function App() {
                 &middot;
               </span>
               <a
-                href="mailto:your@email.com"
+                href="mailto:FarrantRhys@gmail.com"
                 className="inline-flex items-center gap-1.5 text-sm transition-colors hover:text-text-primary"
               >
                 <svg
