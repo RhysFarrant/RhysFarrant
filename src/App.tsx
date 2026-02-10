@@ -67,9 +67,9 @@ export default function App() {
 
         {/* Headline */}
         <h1 className="mx-auto mb-6 max-w-2xl text-2xl font-bold leading-[1.2] sm:text-3xl sm:leading-[1.15] lg:text-4xl">
-          <span className="text-text-secondary">Career focus on </span>
+          <span className="text-text-secondary">Professionally focused on building </span>
           Java-based backend systems and integrations.
-          <span className="text-text-secondary"> Personal focus on building modern, deployable web applications with </span>
+          <span className="text-text-secondary"> Creatively focused on building modern, deployable web applications with </span>
           React and Vite.
         </h1>
 
@@ -78,7 +78,7 @@ export default function App() {
           {pills.map((pill) => (
             <span
               key={pill}
-              className="rounded-full border border-border/60 px-3.5 py-1 text-[10px] text-text-muted sm:text-xs"
+              className="rounded-full border border-border bg-surface/40 px-3.5 py-1 text-[11px] font-medium text-text-secondary sm:text-xs"
             >
               {pill}
             </span>
@@ -86,7 +86,7 @@ export default function App() {
         </div>
 
         {/* Availability line */}
-        <p className="text-[10px] text-text-muted/70 sm:text-xs">
+        <p className="text-xs font-medium text-text-primary/90 sm:text-sm">
           London &middot; Backend, Frontend &amp; Integrations
         </p>
       </section>
