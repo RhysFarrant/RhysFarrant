@@ -7,6 +7,7 @@ export type Project = {
   stack: string[]
   highlights: string[]
   liveUrl?: string
+  liveLabel?: string
   repoUrl?: string
   featured?: boolean
   wip?: boolean
@@ -46,6 +47,23 @@ export const projects: Project[] = [
     liveUrl: 'https://aether-builder.com',
     featured: true,
     wip: true,
+  },
+  {
+    id: 'nightguard',
+    name: 'NightGuard',
+    tagline: 'Windows desktop app for enforcing nightly PC cutoff times',
+    description:
+      'A Windows-only desktop app built to help enforce a configured bedtime by tracking the active countdown, persisting session state, and preparing the foundation for reminders and lockout-style enforcement.',
+    stack: ['C#', '.NET 8', 'WPF', 'xUnit'],
+    highlights: [
+      'Desktop app for configuring bedtime targets and active days',
+      'Persistent settings and session state stored in AppData',
+      'Scheduling and persistence logic covered by unit tests',
+    ],
+    liveUrl: 'https://github.com/RhysFarrant/NightGuard/releases/tag/1.0',
+    liveLabel: 'Release',
+    repoUrl: 'https://github.com/RhysFarrant/NightGuard',
+    featured: true,
   },
   {
     id: 'labs',
